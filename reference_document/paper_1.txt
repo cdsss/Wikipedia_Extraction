@@ -1,0 +1,9 @@
+Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions
+
+key idea:
+a sentence-level attention model to select the valid instances, which makes full use of the supervision information
+from knowledge bases.
+extract entity descriptions from Freebase and Wikipedia pages to supplement background knowledge for this task.
+
+the training data are labelled automatically as follows:
+for a triplet r(e1, e2) in the KB, all sentences that mention both entities e1 and e2 are regarded as the training instances.
